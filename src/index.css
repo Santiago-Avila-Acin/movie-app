@@ -1,0 +1,27 @@
+:root{
+  --primary_color: #FF6000;
+  --secondary_color: #FFE6C7;
+  --black: #000000;
+  --white: #ffffff;
+  --light_color: #000000f2;
+  --sm: 1.6rem;
+  --md: 2.2rem;
+  --lg: 2.6rem;
+  --title: 4.8rem;
+  }
+
+  *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  }
+
+  html{
+  font-size: 62.5%;
+  }
+
+  body{
+      font-family: 'Inter', sans-serif;
+      background-color: var(--light_color);
+  }
